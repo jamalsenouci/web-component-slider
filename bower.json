@@ -2,9 +2,9 @@
   "name": "mediacom-slider",
   "version": "1.0.7",
   "authors": [
-    "Anonymous <anonymous@example.com>"
+    "Jamal Senouci <jamalsenouci@gmail.com>"
   ],
-  "description": "An element providing a solution to no problem in particular.",
+  "description": "An element providing multiple sliders that adjust based on total.",
   "keywords": [
     "web-component",
     "polymer",
@@ -12,7 +12,7 @@
   ],
   "main": "mediacom-slider.html",
   "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/<USERNAME>/seed-element/",
+  "homepage": "https://github.com/jamalsenouci/web-component-slider/",
   "ignore": [
     "/.*",
     "/test/"
