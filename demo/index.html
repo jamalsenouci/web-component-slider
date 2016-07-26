@@ -19,20 +19,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <body unresolved>
 
     <mediacom-slider></mediacom-slider>
-
     <script>
-      var seedElement = document.querySelector('mediacom-slider');
-      var paperSlider = document.getElementsByTagName('paper-slider');
-
-      for (i=0; i<paperSlider.length - 1; i++){
-        paperSlider[i].addEventListener("value-change", function(e) {
-          seedElement.updateTotal();
-        });
-      }
-
-
-
+        var slider = document.querySelector("mediacom-slider")
+        slider.brands = ['baileys','budweiser']
     </script>
-
   </body>
 </html>
